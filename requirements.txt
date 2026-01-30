@@ -1,0 +1,9 @@
+blinker==1.9.0
+click==8.3.1
+colorama==0.4.6
+Flask==3.1.2
+itsdangerous==2.2.0
+Jinja2==3.1.6
+MarkupSafe==3.0.3
+packaging @ file:///C:/miniconda3/conda-bld/packaging_1761049101700/work
+Werkzeug==3.1.5

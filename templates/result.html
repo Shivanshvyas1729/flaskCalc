@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+
+    <!-- SAME CSS LINK -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1> Result </h1>
+
+    <div class="result">
+        {{ result }}
+    </div>
+
+    <a href="/">☁️ Back to Heaven</a>
+</div>
+
+</body>
+</html>
+
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
